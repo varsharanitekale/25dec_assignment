@@ -1,0 +1,94 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Pushster&family=Roboto+Slab:wght@300&display=swap');
+
+
+.container{
+    display:flex;
+    
+}
+.sidebar{
+    background-color:rgb(209, 205, 205);
+    width:434px;
+    font-family:Merriweather;
+    height:100vh;
+
+    /* font-family: Pushster; */
+}
+.sidebar, nav{
+    padding:12px; 
+    
+
+
+}
+.sidebar li {
+    list-style: none;
+    font-size: 20px;
+    padding:33px 0px;
+
+}
+ a{
+    text-decoration: none;
+    color:black;
+}
+.main{
+    /* background-color: yellow; */
+    width:90vw;
+}
+.infocontainer{
+    /* background-color:green; */
+    width:80vw;
+    height:58vh;
+    margin:74px auto;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    
+
+}
+.devpic img{
+    width:369px;
+    height:58vh;
+}
+
+.devinfo{
+    display:flex;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+}
+.hello{
+    font-size:60px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+}
+.about{
+    font-size:30px;
+    /* font-family: 'Roboto Slab', serif; */
+}
+.moreabout{
+    font-size: 15x;
+    font-family:Roboto Slab, serif;
+    margin-top:23px;
+}
+.button{
+    margin:36px;
+}
+.button button{
+    padding:9px 10px;
+    border-radius: 20px;
+    background-color: rgb(88, 88, 158);
+    color:white;
+    font-weight: bold;
+    margin:0px 10px;
+    cursor:pointer;
+
+}.button button:hover{
+    background-color:rgb(186, 186, 212);
+}
